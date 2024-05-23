@@ -1,0 +1,132 @@
+.home-page-container {
+  background-color: #f3f8fe;
+  height: 90vh;
+  margin-top: 0px;
+  display: flex;
+  font-family: 'Roboto';
+  justify-content: space-around;
+  align-items: center;
+}
+.home-page-welcome-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 700px;
+}
+.home-page-welcome-container-heading {
+  font-weight: 600;
+  font-size: 35px;
+  margin-bottom: 0px;
+}
+.home-page-welcome-container-paragraph {
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 15px;
+}
+.home-page-welcome-container-lists {
+  display: flex;
+  width: 550px;
+  justify-content: space-evenly;
+  padding: 0px;
+  align-items: center;
+  list-style-type: none;
+  margin-left: 0px;
+  align-self: flex-start;
+}
+.home-list-item {
+  background-color: #f3f8fe;
+  padding-top: 5px;
+  padding: 3px;
+  border: 2px solid #cad1d6;
+  display: flex;
+  flex-direction: column;
+  height: 70px;
+  min-width: 100px;
+  max-width: 200px;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 6px 4px #34107a;
+}
+.icons {
+  margin-right: 5px;
+  margin-top: 5px;
+}
+.nums {
+  margin-top: 10px;
+}
+.call-us-container {
+  background-color: white;
+  box-shadow: 0 6px 4px rgb(0, 0, 0, 0.3);
+  height: 450px;
+  width: 580px;
+  display: flex;
+  flex-direction: column;
+
+  padding: 15px;
+}
+.home-page-call-us-heading {
+  font-size: 23px;
+  text-align: center;
+}
+.home-page-input-container {
+  height: 40px;
+  width: 540px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 0.5px solid grey;
+  font-size: 16px;
+  padding-left: 5px;
+}
+.request-button {
+  background-color: #34107a;
+  border: none;
+  outline: none;
+  color: white;
+  height: 35px;
+  width: 540px;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 5px;
+
+  align-self: center;
+  margin: 10px;
+  margin-top: 20px;
+  font-weight: 500;
+}
+.display-success {
+  background-color: white;
+  border: 1px solid #cad1d6;
+  box-shadow: 0 6px 8px rgb(0, 0, 0, 0.3);
+  height: 300px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-end;
+}
+.close {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+.close-icon {
+  height: 20px;
+  width: 20px;
+  align-self: flex-end;
+}
+.success {
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+  color: rgb(158, 247, 158);
+}
+.btn {
+  width: 300px;
+}
+.red {
+  background-color: #e81c22;
+  width: 150px;
+  padding: 5px;
+  height: 40px;
+}

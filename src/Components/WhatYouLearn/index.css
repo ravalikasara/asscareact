@@ -1,0 +1,60 @@
+.what-you-learn-container {
+  display: flex;
+
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  flex-direction: column;
+}
+.what-you-learn-container-heading {
+  font-weight: 600;
+  font-size: 40px;
+}
+.line {
+  width: 140px;
+  border: 3px solid #34107a;
+  border-radius: 5px;
+}
+.what-you-learn-list-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+.what-you-learn-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  width: 300px;
+  margin: 20px;
+  background-color: #f3f8fe;
+  padding: 0px;
+}
+.what-you-learn-list-heading {
+  background-color: #34107a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 300px;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  margin: 0px;
+}
+.what-you-learn-list-container-details-lists {
+  display: flex;
+  flex-direction: column;
+  list-style: disc;
+  min-height: 300px;
+  max-height: 300px;
+}
+.what-you-learn-list-description {
+  margin: 10px;
+  font-size: 18px;
+}
+.footer-heading {
+  font-size: 24px;
+}

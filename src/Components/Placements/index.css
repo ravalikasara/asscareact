@@ -1,0 +1,38 @@
+.placement-container {
+  display: flex;
+
+  background-color: white;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: 'Roboto';
+  flex-direction: column;
+  background-color: #f5edff;
+  margin: 30px;
+}
+.placement-container-heading {
+  font-weight: 600;
+  font-size: 40px;
+  align-self: center;
+}
+.line {
+  width: 140px;
+  align-self: center;
+  border: 3px solid #34107a;
+  border-radius: 5px;
+}
+.placement-card-container {
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+  padding: 20px;
+}
+.placement-title {
+  font-size: 29px;
+}
+
+.placement-description {
+  font-size: 20px;
+  margin-top: 5px;
+  width: 1000px;
+}
